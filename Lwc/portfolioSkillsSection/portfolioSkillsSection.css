@@ -1,0 +1,93 @@
+
+.titleheading{
+    align-items: center;
+    color: black;
+    font-size: xx-large;
+}
+
+
+.container{
+    display: flex;
+    grid-gap: 20px;
+    padding: 30px;
+    background-color: white;
+    min-height: 100vh;
+    flex-direction: column;
+    color: #D7D7D7;
+
+
+    
+}
+
+
+
+
+.skillset{
+    
+    padding: 10px;
+}
+
+.heading{
+    font-size: x-large;
+    color: Black;
+}
+
+.subHeading{
+    color: black;
+    font-size: medium;
+    padding: 5px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 5px;
+    color: black;
+    font-size: small;
+    font-weight: 600;
+}
+
+.badge{
+    background-color: #E6AF2E;
+    padding: 4px 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+
+@media(max-width: 950px) and (min-width: 450px) {
+    ul li{
+        font-size: x-small;
+        padding: 0;
+        margin: 5px;
+    }
+
+    .heading{
+        font-size: larger;
+    }
+
+    .subHeading{
+        color: black;
+        font-size: smaller;
+    }
+}
+
+@media(max-width: 450px) {
+    .container{
+        padding: 10px;
+    }
+    ul li{
+        display: inline-block;
+        margin: 5px;
+        padding: 0;
+        font-size: xx-small;
+    }
+
+    .heading{
+        font-size: medium;
+    }
+
+    .subHeading{
+        color: black;
+        font-size: small;
+    }
+}

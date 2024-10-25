@@ -1,0 +1,177 @@
+/* .light {
+    background-color: var(--light-theme-backgroud-color, rgb(255, 255, 255));
+    color: #17262B;
+}
+
+.dark {
+    background-color: var(--dark-theme-background-color, black);
+    color: var(--dark-theme-text-color, ghostwhite);
+}
+.contactMe_btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: -webkit-linear-gradient(45deg, #ff8578 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #ff8578 0%, #ff8b5f 100%);
+    transition: .4s;
+}
+
+
+.contactMe_btn:hover {
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+}
+
+.color-customLight {
+    color: #8d81a5!important;
+}
+.color-customBlue {
+    color: #ff8578!important;
+}
+.color-customLight {
+    color: #8d81a5!important;
+}
+.font-weight-bold {
+    font-weight: 701!important;
+}
+.color-customLight {
+    color: #8d81a5!important;
+}
+
+.h5, h5 {
+    font-size: 1.25rem;
+}
+
+.h5, h5 {
+    font-size: 1.25rem;
+}
+.h1, h1 {
+    font-size: 3.5rem;
+}
+
+
+.h3, h3 {
+    font-size: 1.75rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.fa{
+    padding-top: 2rem;
+    color: #ff8578;
+}
+.fa:hover {
+    color: #ff6a6a;
+} */
+ /* Light and Dark Theme Backgrounds */
+ .light {
+    background-color: var(--light-theme-background-color, #ffffff);
+    color: #17262B;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.dark {
+    background-color: var(--dark-theme-background-color, #000000);
+    color: var(--dark-theme-text-color, ghostwhite);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Contact Me Button Styling */
+.resume_button {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 12px 35px; /* Slightly increased padding for a more prominent button */
+    font-size: 1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: linear-gradient(45deg, #ff8578 0%, #ff8b5f 100%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Added shadow for a 3D effect */
+    transition: background-image 0.4s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.resume_button:hover {
+    background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+    transform: scale(1.05); /* Slightly enlarges on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* More shadow on hover */
+}
+
+.name{
+    color: orange;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.name:hover{
+    color: red;
+    transform: scale(1.1);
+
+}
+/* Custom Color Styling */
+.color-customLight {
+    color: #8d81a5 !important;
+}
+
+.color-customBlue {
+    color: orange !important;
+}
+
+/* Font Weights */
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+/* Heading Font Sizes */
+.h5, h5 {
+    font-size: 1.25rem;
+}
+
+.h1, h1 {
+    font-size: 3.3rem;
+}
+
+.h3, h3 {
+    font-size: 1.75rem;
+}
+
+/* General Heading Styles */
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+/* Font Awesome Icon Styling */
+.fa {
+    padding-top: 2rem;
+    color: orange;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.fa:hover {
+    color: orange;
+    transform: scale(1.1); /* Enlarge slightly on hover */
+}
+
+/* Profile Image Styling */
+.profile-image {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+     max-width: 80%;   /*for image */
+    height: 80%;
+}
+
+.profile-image:hover {
+    transform: scale(1.05); /* Image scales slightly on hover */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15); /* Image shadow increases on hover */
+}
+
+.intro-text{
+    padding-left: 10px;
+}
+

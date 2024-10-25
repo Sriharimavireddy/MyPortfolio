@@ -1,0 +1,64 @@
+<template>
+    <center>
+    <div class={themeClass}>
+	
+	<div class="topnav" role="navigation">
+		<ul class="slds-grid">
+			<li class="slds-context-bar__item ">
+				<a href="#home" class="slds-context-bar__label-action" title="Home" > <span class="slds-assistive-text">Home:</span> <span class="slds-truncate" title="Home" >Home</span> </a>
+			</li>
+            <li class="slds-context-bar__item">
+				<a href="#education" class="slds-context-bar__label-action" title="education"> <span class="slds-assistive-text">Education:</span> <span class="slds-truncate" title="My Projects on Github">Education</span> </a>
+			</li>
+            <li class="slds-context-bar__item">
+				<a href="#Experiencesec" class="slds-context-bar__label-action" title="Experience" > <span class="slds-assistive-text">Experience:</span> <span class="slds-truncate" title="Experience" >Experience</span></a>
+			</li>
+            <li class="slds-context-bar__item ">
+				<a href="#skills" class="slds-context-bar__label-action" title="Skills" > <span class="slds-assistive-text">Skills:</span> <span class="slds-truncate" title="Skills" >Skills</span></a>
+            </li>
+            <li class="slds-context-bar__item">
+				<a href="#projects" class="slds-context-bar__label-action" title="Projects"> <span class="slds-assistive-text">projects:</span> <span class="slds-truncate" title="My Projects on Github">Projects</span> </a>
+			</li>
+            <li class="slds-context-bar__item">
+				<a href="#contactme" class="slds-context-bar__label-action" title="ContactMe"> <span class="slds-assistive-text">contactme:</span> <span class="slds-truncate" title="Contact Me">Contact Me</span></a>
+			</li>
+            <a class="icon" onclick={handleHamburgerClick}></a>
+        <i class="icon-menu"></i>
+        <!-- <i class="fa fa-bars"></i> -->
+		</ul>
+        
+	</div>
+    </div>
+
+</center>
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="handleHamburgerClick()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div> -->
+	
+	
+    <!------------------------------- HOME --------------------------------------------->
+    <template if:true={showHomePage}>
+	<c-my-portfolio-home theme-class={themeClass}></c-my-portfolio-home>
+    </template>
+   <!--------------------------------- SKILLS --------------------------------------------->
+    <template if:true={showSkillsPage}>
+	<c-my-portfolio-skills-page theme-class={themeClass}></c-my-portfolio-skills-page>
+    </template>
+    <!--------------------------------- CONTACT ME --------------------------------------------->
+    <template if:true={showContactMePage}>
+	<c-my-portfolio-contact-me-page theme-class={themeClass}></c-my-portfolio-contact-me-page>
+    </template>
+   <!----------------------------------- FOOTER ------------------------------------>
+
+
+
+</template>

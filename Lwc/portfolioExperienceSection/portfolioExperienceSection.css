@@ -1,0 +1,177 @@
+.titleheading{
+    align-items: center;
+    color: black;
+    font-size: xx-large;
+}
+
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+   /* background-color: whi;*/
+    min-height: 100vh;
+    flex-direction: column;
+    color: black;
+}
+
+.experience{
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+}
+
+.designation{
+    font-size: x-large;
+}
+
+.company{
+    color: #E6AF2E;
+}
+
+.field{
+    color: #E6AF2E;
+}
+
+.details{
+    text-align: justify;
+    font-size: smaller;
+}
+
+.exp{
+    width: 60%;
+}
+
+.logo{
+    width: 40%;
+    text-align: center;
+}
+
+.img{
+    width: 50%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.skills{
+    padding: 20px 0px 0px 10px;
+    font-size: small;
+    font-weight: 600;
+    color: #1F221B;
+}
+
+.skills ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.badge{
+    background-color: #E6AF2E;
+    padding: 4px 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+@media(max-width: 450px){
+    .container{
+        padding: 10px; 
+    }
+
+    .experience{
+        padding: 15px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+
+    .img{
+        width: 40%;
+        margin: 0%;
+    }
+
+    .exp{
+        width: 100%;
+    }    
+
+    .skills{
+        width: 100%;
+        padding: 2px;
+        font-size: xx-small;
+        font-weight: 600;
+    }
+    
+    .skills ul li {
+        display: inline-block;
+        padding: 5px;
+        color: #1F221B;
+        margin: 0px;
+    }
+
+    .designation{
+        font-size: large;
+    }
+    
+    .tenure{
+        font-size: small;
+    }
+    .details{
+        font-size: x-small;
+    }
+}
+
+
+@media(max-width: 950px) and (min-width: 450px){
+    .container{
+        padding: 20px 
+    }
+
+    .experience{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .img{
+        width: 30%;
+        height: auto;
+        margin-left: 0%;
+    }
+
+    .exp{
+        width: 100%;
+    }    
+
+    .skills{
+        width: 100%;
+        padding: 20px 0px 0px 0px;
+        font-size: x-small;
+        font-weight: 600;
+    }
+    
+    .skills ul li {
+        display: inline-block;
+        padding: 5px;
+        color: #1F221B;
+        margin: 0px;
+    }
+
+    .details{
+        font-size: small;
+    }
+
+
+}
+
+

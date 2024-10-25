@@ -1,0 +1,57 @@
+<template>
+
+    <a name="contactme"></a>
+    <div class={themeClass}>
+
+        <!-- Image and text side by side container -->
+        <div class="slds-grid slds-wrap slds-align_absolute-center slds-p-around_medium">
+            
+
+            <!-- Right Column: Text Content -->
+            <div class="slds-col slds-size_2-of-3 slds-p-around_small text-container">
+                <!-- Catchy headline -->
+                <div class="headline-container">
+                    <h1 class="slds-text-heading_large text-bold color-custom slds-align_right">
+                        Let’s <br>Work <br>Together!
+                    </h1>
+                </div>
+
+                <h5 class="slds-text-heading_small text-custom slds-p-around_medium">
+                    One of my favorite things about this job is the variety, in clients and projects.<br>
+                    So no matter the work or technology, get in touch and tell me what you have in mind.<br>
+                    I can’t wait to hear all about it!
+                </h5>
+
+                
+            </div>
+            <!-- Left Column: Image -->
+            <div class="slds-col slds-size_1-of-3 slds-p-around_small image-container">
+                <img src={codeImageUrl} alt="Portfolio Image" class="portfolio-image"/>
+            </div>
+        </div>
+</div>
+    <div class="container">
+        <div class="header">
+            <p class="headline">Send me a message!</p>
+            <p class="subheading">Actively seeking full-time opportunities! Feel free to reach out—I’d love to connect!</p>
+        </div>
+        <div class="details">
+            <form onsubmit = {createContactRecord}>
+                <div class="textfield">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="firstname" placeholder="Your name.." onchange = {getName}>
+
+                    <label for="email">Email Address</label>
+                    <input type="text" id="email" name="emailid" placeholder="Your email address.." onchange = {getEmail}>
+                </div>
+                <div class="field">
+                    <label for="subject">Your Message</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" onchange = {getMessage}></textarea>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+</template>

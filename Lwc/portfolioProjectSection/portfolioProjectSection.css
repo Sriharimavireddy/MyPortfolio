@@ -1,0 +1,125 @@
+.titleheading{
+    align-items: center;
+    color: black;
+    font-size: xx-large;
+}
+
+
+.container{
+    display:flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items:center ;
+      /*grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: max-content;
+    
+    grid-gap: 20px;
+    /*background-color: lightgray;*/
+    min-height: 100vh;
+    color: black;
+}
+
+.gitIcon{
+    width: 3%;
+    height: 3%;
+}
+
+.project{
+    width: 100%;
+    padding: 30px;
+    height: fit-content;
+   
+}
+
+.ProjectName{
+    font-size: x-large;
+}
+
+.details{
+    text-align: justify;
+    font-size: smaller;
+    padding: 4px;
+    
+}
+
+.badge{
+    background-color: #E6AF2E;
+    color: #1F221B;
+    padding: 4px 10px;
+    text-align: center; 
+    border-radius: 50px;
+}
+
+.skills{
+    padding: 20px 0px 0px 10px;;
+    font-size: small;
+    font-weight: 600;
+}
+
+.skills ul li {
+    display: inline;
+    padding: 5px;
+}
+
+@media(max-width: 950px) and (min-width: 450px) {
+    .ProjectName{
+        font-size: larger;
+    }
+
+    .details{
+        font-size: small;
+    }
+
+    .badge{
+        font-size: xx-small;
+    }
+
+    .project{
+        padding: 20px;  
+    }
+
+    .skills{
+        width: 100%;
+        padding: 2px;
+        font-size: small;
+        font-weight: 600;
+    }
+    
+    .skills ul li {
+        display: inline-block;
+        padding: 5px;
+        margin: 0px;
+    }
+}
+
+
+@media(max-width: 450px) {
+    .container{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project{
+        padding: 15px;
+    }
+
+    .ProjectName{
+        font-size: medium;
+    }
+
+    .details{
+        font-size: x-small;
+    }
+
+    .skills ul li {
+        display: inline-block;
+        padding: 5px;
+        margin: 0px;
+    }
+
+    .skills{
+        padding: 5px;
+        font-size: xx-small;    
+    }
+}

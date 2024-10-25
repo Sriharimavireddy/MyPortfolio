@@ -1,0 +1,92 @@
+.slds-context-bar__label-action{
+	 font-size: 1.25rem;
+	 font-weight: 701!important;
+	     color: #8d81a5!important;
+
+}
+.light {
+	    padding-top: 2rem;
+    background-color: var(--light-theme-backgroud-color,  #ffffff);
+    color: #17262B;
+}
+
+.dark {
+	    padding-top: 2rem;
+    background-color: var(--dark-theme-background-color, rgb(0, 0, 0));
+    color: var(--dark-theme-text-color, ghostwhite);
+}
+
+.slds-truncate:hover{
+  background-color: transparent;
+    color: #ff8578;
+}
+.fa-sun-o{
+    position: absolute;
+    right: 2rem;
+}
+.fa-moon-o{
+    position: absolute;
+    right: 2rem;
+}
+
+.fa-heart{
+    color:red;
+}
+.glow {
+  font-size: 80px;
+  color: #ff8578;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+body{
+margin:0;
+overflow-x:hidden;
+}
+
+
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+

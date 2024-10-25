@@ -1,0 +1,61 @@
+<!--
+<template>
+    
+<div class={themeClass}>
+<div class="slds-col slds-p-horizontal_medium">
+<div class="">
+    <span class="color-customLight h5 font-weight-bold">Hello !</span><br>
+    <span class="color-customBlue h1 font-weight-bold">I'm {myName}</span><br>
+    <span class="color-customLight h3">I'm a <span class="font-weight-bold">{myProfessionField}</span> {myProfession}</span><br><br>
+    <span class="color-customLight h5">{myBio}</span>
+    <br><a href="https://github.com/shivamkapasia0" target="_blank"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/in/shivam-kapasia/" target="_blank"><i class="fa fa-linkedin-square fa-3x slds-p-left_x-small" aria-hidden="true"></i></a>
+    <br>
+    <a href="mailto:kapasiashivam007@gmail.com" class="contactMe_btn">Contact Me</a>
+</div>
+</div>
+<div class="slds-col slds-p-horizontal_medium">
+ <img src={codeImageUrl}>
+</div>
+</div>
+
+</template> -->
+<template>
+    <!-- BODY -->
+    <a name="home"></a>
+    <div class={themeClass}>
+        <div class="slds-grid slds-wrap slds-align_absolute-center slds-p-around_medium">
+            <!-- Left Section: Text Content -->
+            <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-p-around_small">
+                <div class="intro-text">
+                    <!-- Add margin above "Hello!" to give more space -->
+                    <span class="greeting h5 slds-m-top_medium">Hello!</span><br>
+                    <span class="name h1">I'm {myName}</span><br>
+                    <span class="profession h3">I'm a <span class="profession-field">{myProfessionField}</span> {myProfession}</span><br><br>
+                    <span class="bio h5">{myBio}</span><br>
+
+                    <!-- Social Media Links -->
+                    <div class="social-links slds-m-top_medium">
+                        <a href="https://github.com/Sriharimavireddy" target="_blank" aria-label="GitHub">
+                            <i class="fa fa-github-square fa-3x"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sri-hari-mavireddy-a5099217a/" target="_blank" class="slds-p-left_x-small" aria-label="LinkedIn">
+                            <i class="fa fa-linkedin-square fa-3x"></i>
+                        </a>
+                    </div>
+
+                    <!-- Contact Button -->
+                    <div class="slds-m-top_large">
+                        <button class="resume_button" data-id="resume" onclick={downloadResume}>Resume</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Section: Image -->
+            <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-p-around_small">
+                <img src={codeImageUrl} class="profile-image" alt="Profile Image">
+            </div>
+        </div>
+    </div>
+    <!-- BODY ENDS -->
+</template>
