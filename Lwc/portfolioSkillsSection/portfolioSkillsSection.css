@@ -1,8 +1,11 @@
 
 .titleheading{
+    display: flex;
+    justify-content: center; /* Centers the text horizontally */
     align-items: center;
     color: black;
     font-size: xx-large;
+    text-align: center; /* Ensures text inside the element is centered */
 }
 
 

@@ -1,5 +1,6 @@
 import { LightningElement, api } from 'lwc';
 import codeImage from '@salesforce/resourceUrl/portifolioimages';
+//import codeImage from '@salesforce/resourceUrl/images';
 import FontAwesome from '@salesforce/resourceUrl/fontawesome';
 import Resumepdf from '@salesforce/resourceUrl/images';
 import { loadStyle } from 'lightning/platformResourceLoader';
@@ -7,8 +8,8 @@ import { loadStyle } from 'lightning/platformResourceLoader';
 
 export default class MyPortfolioHome extends LightningElement {
 @api themeClass;
-// codeImageUrl = codeImage +'/coder.jpg';
-codeImageUrl = codeImage +'/haridp.JPG';
+//codeImageUrl = codeImage +'/coder.jpg';
+codeImageUrl = codeImage +'/profilep.png';
 ResumepdfUrl = Resumepdf + '/sriharimavireddy_dev1.pdf';
 
 renderedCallback() {

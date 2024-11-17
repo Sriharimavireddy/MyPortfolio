@@ -38,6 +38,15 @@ input[type=text],textarea {
     background: #D7D7D7;
 }
 
+input[type=number],numberarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    color: #1F221B;
+    background: #D7D7D7;
+}
 input[type=submit] {
     width: 100%;
     background-color: #E6AF2E;
@@ -88,4 +97,9 @@ label{
 
 h1{
     color:red;
+}
+
+img{
+    max-width: 70%;
+    height: auto;
 }

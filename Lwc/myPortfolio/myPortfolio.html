@@ -1,5 +1,5 @@
 <template>
-    <center>
+    <!-- <center>
     <div class={themeClass}>
 	
 	<div class="topnav" role="navigation">
@@ -24,15 +24,14 @@
 			</li>
             <a class="icon" onclick={handleHamburgerClick}></a>
         <i class="icon-menu"></i>
-        <!-- <i class="fa fa-bars"></i> -->
-		</ul>
+       <i class="fa fa-bars"></i> 
+ 		 </ul>
         
 	</div>
     </div>
 
-</center>
-
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</center> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="topnav" id="myTopnav">
   <a href="#home" class="active">Home</a>
@@ -43,22 +42,21 @@
     <i class="fa fa-bars"></i>
   </a>
 </div> -->
-	
-	
-    <!------------------------------- HOME --------------------------------------------->
-    <template if:true={showHomePage}>
-	<c-my-portfolio-home theme-class={themeClass}></c-my-portfolio-home>
-    </template>
-   <!--------------------------------- SKILLS --------------------------------------------->
-    <template if:true={showSkillsPage}>
-	<c-my-portfolio-skills-page theme-class={themeClass}></c-my-portfolio-skills-page>
-    </template>
-    <!--------------------------------- CONTACT ME --------------------------------------------->
-    <template if:true={showContactMePage}>
-	<c-my-portfolio-contact-me-page theme-class={themeClass}></c-my-portfolio-contact-me-page>
-    </template>
-   <!----------------------------------- FOOTER ------------------------------------>
 
+<div class="outer-container">
+    <div class="topnav">
+      <a href="#home">About Me</a>
+      <a href="#education">Education</a>
+      <a href="#Experiencesec">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contactme">Contact</a>
 
+     
+      <a class="icon" onclick={handleHamburgerClick}>
+        <i class="icon-menu"></i>
+      </a>
+    </div>
+  </div>
 
 </template>

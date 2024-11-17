@@ -4,26 +4,14 @@ import { loadStyle } from 'lightning/platformResourceLoader';
 export default class MyPortfolioNavBar extends LightningElement {
 
     @track defaultThemeLight = true;
-//    @track showHomePage = true;
-//    @track showSkillsPage = false;
-//    showContactMePage = false;
+
 
 renderedCallback(){
     loadStyle(this, Hamicon +'/style.css');
 }
 
   
-get themeClass(){
-     let darkTheme = 'dark slds-p-left_xx-large slds-grid slds-align_absolute-center';
-     let lightTheme = 'light slds-p-left_xx-large slds-grid slds-align_absolute-center';
-     if(this.defaultThemeLight){
-         return lightTheme;
-     // eslint-disable-next-line no-else-return
-     }else{
-         return darkTheme;
-     }
-    }
-     
+
  
 
   handleHamburgerClick(){

@@ -13,11 +13,12 @@
         <div class="project slds-col slds-size_2-of-3">
 
             <p class="ProjectName">My portfolio &#9830; <span class="git"><a href={project1} target="_blank"><img class="gitIcon" src={githubIcon}></a></span></p>
-            <p class="details slds-p-around_medium">Welcome to my personalized digital space, meticulously crafted using Lightning Web Components 
-                on Salesforce Experience Cloud.</br>
-                 his interactive portfolio is a testament to my skills, 
-                experiences, and the innovative technologies I've embraced throughout my journey.</br>
-                This includes my education details , work experience , skills and projects with its github details.
+            <p class="details slds-p-around_medium">·Developed a personal portfolio website showcasing professional details, including GitHub, LinkedIn, resume PDF, education background, projects, and skills.</br>
+                ·Built dynamic pages with Salesforce LWC to display professional details and links to GitHub, LinkedIn, and the resume PDF.</br>
+                ·Integrated a form to collect user details (name, email, message) in the "Contact Me" section.</br>
+                ·The form submits user details and automatically creates a contact in the Salesforce org.</br>
+                ·After submitting the form, both the user and me receive emails with the contact details.</br>
+                ·Overall This project includes woring with Salesforce LWC, Experience Cloud, and automation within the Salesforce ecosystem.</br>
             </p>
             <div class="skills">
                 <ul>
@@ -34,25 +35,27 @@
    
     <div class="slds-grid slds-wrap slds-align_absolute-center slds-p-around_medium">
         <div class="logo slds-col slds-size_1-of-3">
-            <a href={project2ui} target="_blank"><img class="img" src={bmiicon}></a>
+            <a href={project2ui} target="_blank"><img class="img" src={whatsapproject}></a>
         </div>
     <div class="project slds-col slds-size_2-of-3">
 
-        <p class="ProjectName">BMI Calculator &#9830; <span class="git"><a href={project2} target="_blank"><img class="gitIcon" src={githubIcon}></a></span></p>
-        <p class="details">·Built a digital experience site using LWR template to calculate BMI value.</br>
-            ·The BMI value is calculated based on the user's height and weight Result indicating whether</br>
-            the user is underweight, healthy, overweight, or obese is given depending on the BMI value.</br>
-            ·Also incorporated lightning/uiRecordApi to create individual records by storing the user-provided details</br>
-            through the user interface (UI) into a custom object (BMI Reports) which stores the data in the Database.</br>
+        <p class="ProjectName">Salesforce with Whatspp Integration &#9830; <span class="git"><a href={project2} target="_blank"><img class="gitIcon" src={githubIcon}></a></span></p>
+        <p class="details">· Integrated Salesforce with the Meta Developer API to send WhatsApp messages automatically for new contacts.</br>
+            ·Used an Apex class to handle the creation of a new contact when the user submits their details in the "Contact Me" section of the portfolio website.</br>
+            
+            ·Created a trigger that fires whenever a new contact is added in Salesforce, ensuring that the latest contact is identified for the WhatsApp message.</br>
+            ·Implemented a future method to handle the callout to the Meta API asynchronously. This ensures that the WhatsApp message is sent without blocking the main thread of execution.</br>
+            ·Used the Meta Developer API credentials to send a pre-configured WhatsApp message template to the phone number associated with the newly created contact.</br>
              </p>
         <div class="skills">
             <ul>
-                <li><span class="badge">Lightning Web Component</span></li>
+                <li><span class="badge">Salesforce Integration</span></li>
                 <li><span class="badge">Salesforce</span></li>
-                <li><span class="badge">Experience Cloud</span></li>
-                <li><span class="badge">JavaScript</span></li>
-                <li><span class="badge">HTML</span></li>
-                <li><span class="badge">CSS</span></li>
+                <li><span class="badge">Rest API</span></li>
+                <li><span class="badge">Meta API</span></li>
+                <li><span class="badge">Site settings</span></li>
+                <li><span class="badge">Future method</span></li>
+                <li><span class="badge">Triggers</span></li>
             </ul>
         </div>
         </div>
