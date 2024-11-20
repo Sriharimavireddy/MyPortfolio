@@ -3,7 +3,8 @@ portfolio created using Salesforce lwc framework
 
 **You can access my site here** - https://sriharimavireddyportfolio-dev-ed.develop.my.site.com/PortfolioLWCUI/
 
-![image](https://github.com/user-attachments/assets/84ac27e2-5a10-424a-957b-35cbdbd671b8)
+![image](https://github.com/user-attachments/assets/366a5f16-acaa-4980-ab04-7e1bbe66141d)
+
 
 **Objective:** Developed a personal portfolio website showcasing professional details, including GitHub, LinkedIn, resume PDF, education background, projects, and skills.
 
